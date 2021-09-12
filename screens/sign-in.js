@@ -107,7 +107,7 @@ const styles = StyleSheet.create({
     },
     signInBtn: {
         alignSelf: 'center',
-        backgroundColor: Colors.primary,
+        backgroundColor: Colors.secondary,
         width: wp('60%'),
         height: hp('7%'),
         alignItems: 'center',
