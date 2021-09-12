@@ -1,3 +1,9 @@
+/**
+ * App.js - created 09/09/2021
+ * @description Handles navigation and loading fonts to be used in TankMate
+ * @author Lauren Bassett <laurenb252@outlook.com>
+ */
+
 import { StatusBar } from 'expo-status-bar';
 import * as React from 'react';
 import { StyleSheet, Text, View } from 'react-native';

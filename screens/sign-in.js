@@ -1,12 +1,19 @@
+/**
+ * sign-in.js - created 10/09/2021
+ * @description Sign in screen for all users
+ * @author Lauren Bassett <laurenb252@outlook.com>
+ */
+
 import { StatusBar } from 'expo-status-bar';
 import * as React from 'react';
-import { StyleSheet, Text, View, TouchableOpacity, TextInput, Touchable } from 'react-native';
+import { StyleSheet, Text, View, TouchableOpacity, TextInput } from 'react-native';
 import { widthPercentageToDP as wp, heightPercentageToDP as hp } from 'react-native-responsive-screen';
+import { Colors } from '../styles/colors.js';
 import AnimatedLottieView from 'lottie-react-native';
 
 export default function SignIn() {
     return (
-        <View style={{ backgroundColor: '#CDE0F1', flex: 1 }}>
+        <View style={{ backgroundColor: Colors.primary, flex: 1 }}>
             <View style={styles.animationContainer}>
                 <AnimatedLottieView style={styles.fishAnimation} source={require('../assets/fish-tank.json')} autoPlay resizeMode='contain' />
             </View>
@@ -33,7 +40,7 @@ export default function SignIn() {
             <View style={styles.bottomTextContainer}>
                 <Text style={styles.bottomText}>Don't have an account?</Text>
                 <TouchableOpacity>
-                    <Text style={styles.bottomText}>Create account</Text>
+                    <Text style={styles.bottomText2}>Create account</Text>
                 </TouchableOpacity>
 
             </View>
@@ -78,11 +85,11 @@ const styles = StyleSheet.create({
     },
     textInput: {
         marginBottom: '5%',
-        borderColor: '#85AFD6',
+        borderColor: Colors.secondary,
         borderWidth: 2,
         borderRadius: 10,
         height: hp('6.5%'),
-        backgroundColor: '#ECECEC',
+        backgroundColor: Colors.surface,
         paddingLeft: '3%',
     },
     inputLabels: {
@@ -100,7 +107,7 @@ const styles = StyleSheet.create({
     },
     signInBtn: {
         alignSelf: 'center',
-        backgroundColor: '#85AFD6',
+        backgroundColor: Colors.primary,
         width: wp('60%'),
         height: hp('7%'),
         alignItems: 'center',
@@ -119,6 +126,11 @@ const styles = StyleSheet.create({
     },
     bottomText: {
         fontFamily: 'Nunito-SemiBold',
+        fontSize: hp('2%'),
+        marginBottom: hp('1%'),
+    },
+    bottomText2: {
+        fontFamily: 'Nunito-Bold',
         fontSize: hp('2%'),
         marginBottom: hp('1%'),
     },
