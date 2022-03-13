@@ -162,7 +162,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Lauren Bassett - [LinkedIn](https://www.linkedin.com/in/lauren-bassett-4310921b0/) - laurenb252@outlook.com
 
-Project Link: [https://github.com/laurenbsst/Frankie-Bot](https://github.com/laurenbsst/TankMate)
+Project Link: [https://github.com/laurenbsst/TankMate](https://github.com/laurenbsst/TankMate)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
