@@ -186,7 +186,7 @@ Project Link: [https://github.com/laurenbsst/Frankie-Bot](https://github.com/lau
 [issues-shield]: https://img.shields.io/github/issues/laurenbsst/Frankie-Bot.svg?style=for-the-badge
 [issues-url]: https://github.com/laurenbsst/Frankie-Bot/issues
 [license-shield]: https://img.shields.io/github/license/laurenbsst/Frankie-Bot.svg?style=for-the-badge
-[license-url]: https://github.com/laurenbsst/Frankie-Bot/blob/main/LICENSE.txt
+[license-url]: https://github.com/laurenbsst/TankMate/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/LinkedIn-gray?style=for-the-badge&logo=linkedin
 [linkedin-url]: https://www.linkedin.com/in/lauren-bassett-4310921b0/
 [product-screenshot]: images/screenshot.png
